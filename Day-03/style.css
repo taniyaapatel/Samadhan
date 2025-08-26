@@ -1,0 +1,217 @@
+:root {
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --ink: #1f2937;
+  --muted: #6b7280;
+  --brand: #5b5bd6;
+  --brand-deep: #4646c2;
+  --border: #e5e7eb;
+  --pass: #16a34a;
+  --fail: #dc2626;
+}
+
+* {
+  box-sizing: border-box
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg)
+}
+
+.site-header {
+  padding: 40px 16px;
+  text-align: center;
+  background: linear-gradient(135deg, #5b5bd6 0%, #7c3aed 100%);
+  color: #fff;
+}
+
+.site-header h1 {
+  margin: 0 0 8px 0;
+  font-size: clamp(22px, 4vw, 34px)
+}
+
+.subtitle {
+  margin: 0;
+  opacity: .95
+}
+
+.container {
+  max-width: 1100px;
+  margin: -24px auto 40px;
+  padding: 0 16px
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .06);
+  margin-bottom: 20px;
+}
+
+.topic h3 {
+  margin: .2rem 0 .4rem
+}
+
+pre {
+  background: #0b1020;
+  color: #e5e7eb;
+  padding: 12px 14px;
+  border-radius: 12px;
+  overflow: auto;
+  font-size: .9rem;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin: 12px 0;
+  flex-wrap: wrap
+}
+
+input,
+select {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fff;
+  outline: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+.select-wrap,
+.subject-wrap {
+  flex: 1 1 260px
+}
+
+#studentName {
+  flex: 1
+}
+
+#subjectMarks {
+  width: 140px
+}
+
+.btn {
+  background: var(--brand);
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .15s;
+  font-weight: 600
+}
+
+.btn:hover {
+  background: var(--brand-deep)
+}
+
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  margin-top: 10px
+}
+
+.student-card {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.student-card h4 {
+  margin: 0 0 6px
+}
+
+.badge {
+  font-size: .8rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  display: inline-block;
+  border: 1px solid var(--border);
+  color: var(--muted)
+}
+
+.stat {
+  font-weight: 700
+}
+
+.pass {
+  color: var(--pass)
+}
+
+.fail {
+  color: var(--fail)
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-size: .95rem
+}
+
+.table th,
+.table td {
+  border: 1px solid var(--border);
+  padding: 8px;
+  text-align: center
+}
+
+.table th {
+  background: #f9fafb
+}
+
+.viz-title {
+  margin: 20px 0 6px
+}
+
+/* Suggestion dropdown (NOT input-like) */
+.suggestions {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .07);
+  max-height: 180px;
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+}
+
+.suggestions li {
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.suggestions li:hover {
+  background: #f3f4ff
+}
+
+.suggestions .action {
+  color: var(--brand);
+  font-weight: 600
+}
+
+.subject-wrap {
+  position: relative
+}
+
+.site-footer {
+  padding: 22px;
+  text-align: center;
+  color: var(--muted)
+}

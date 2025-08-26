@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arrays & Objects • Learning + Mini Task</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>📘 Arrays & Objects in JavaScript</h1>
+    <p class="subtitle">Learn the concepts, then practice with a live, interactive mini task.</p>
+  </header>
+
+  <main class="container">
+    <!-- TOPICS / DOCS -->
+    <section class="card" id="topics">
+      <h2>🔑 Topics</h2>
+
+      <article class="topic">
+        <h3>Array Methods: <code>map</code>, <code>filter</code>, <code>reduce</code></h3>
+        <p><strong>map</strong> transforms every element, <strong>filter</strong> keeps elements that match a condition,
+          and <strong>reduce</strong> combines values into one.</p>
+<pre><code>// map
+const nums = [1,2,3,4];
+const doubled = nums.map(n => n * 2); // [2,4,6,8]
+
+// filter
+const evens = nums.filter(n => n % 2 === 0); // [2,4]
+
+// reduce
+const sum = nums.reduce((acc, n) => acc + n, 0); // 10
+</code></pre>
+      </article>
+
+      <article class="topic">
+        <h3>Objects & Nested Objects</h3>
+        <p>We’ll model data as an array of <em>student objects</em>. Each student has a <code>subjects</code> object
+          where keys are subject names and values are marks.</p>
+<pre><code>const student = {
+  name: "Alice",
+  subjects: {
+    English: 92,
+    Math: 88
+  }
+};
+// Access:
+student.subjects.English; // 92
+</code></pre>
+      </article>
+    </section>
+
+    <!-- MINI TASK -->
+    <section class="card" id="mini-task">
+      <h2>🎯 Mini Task: Student Marks Calculator</h2>
+
+      <!-- add student -->
+      <div class="row">
+        <input id="studentName" type="text" placeholder="Enter student name" />
+        <button id="addStudentBtn" class="btn">➕ Add Student</button>
+      </div>
+
+      <!-- add subject + marks to student -->
+      <div class="row">
+        <div class="select-wrap">
+          <select id="studentSelect" aria-label="Select student">
+            <option value="">Select student</option>
+          </select>
+        </div>
+
+        <!-- SUBJECT with SUGGESTION DROPDOWN (NOT AN INPUT-LOOKING UI) -->
+        <div class="subject-wrap">
+          <input id="subjectInput" type="text" placeholder="Type subject (suggestions appear below)" autocomplete="off" />
+          <!-- suggestion list -->
+          <ul id="subjectSuggestions" class="suggestions" aria-label="Subject suggestions" hidden></ul>
+        </div>
+
+        <input id="subjectMarks" type="number" placeholder="Marks (0–100)" min="0" max="100" />
+        <button id="addSubjectBtn" class="btn">➕ Add Subject</button>
+      </div>
+
+      <!-- live data -->
+      <div id="studentsData" class="students-grid"></div>
+
+      <h3 class="viz-title">📈 Visualization</h3>
+      <canvas id="marksChart" height="200"></canvas>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made for learning • Arrays & Objects • Vanilla HTML/CSS/JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
