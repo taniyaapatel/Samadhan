@@ -1,0 +1,57 @@
+/* Reset default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body background */
+body {
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #f0db4f;
+}
+
+/* Cards layout */
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual card */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  min-width: 180px;
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Card text */
+.card h2 {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
