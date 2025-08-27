@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Node.js Learning Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 Node.js Learning Site</h1>
+
+  <section>
+    <h2>1. What is Node.js?</h2>
+    <p>Node.js is an open-source, cross-platform JavaScript runtime built on Chrome’s V8 engine. It allows JavaScript to run outside the browser, making it ideal for servers and APIs.</p>
+  </section>
+
+  <section>
+    <h2>2. npm init & Installing Packages</h2>
+    <p><code>npm init -y</code> → creates <code>package.json</code> file.</p>
+    <p><code>npm install express</code> → installs dependencies.</p>
+    <p>Alternatives: <code>yarn add</code>, <code>pnpm add</code></p>
+  </section>
+
+  <section>
+    <h2>3. Simple Node.js HTTP Server</h2>
+    <pre><code>
+const http = require('http');
+const server = http.createServer((req, res) => {
+  res.end('Hello from Node.js!');
+});
+server.listen(3000);
+    </code></pre>
+  </section>
+
+  <section>
+    <h2>4. Try the "Hello, World!" API</h2>
+    <button id="helloBtn">Call API</button>
+    <p id="response"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
