@@ -4,7 +4,7 @@
 
 ![Implementation](https://res.cloudinary.com/doxmvuss9/image/upload/v1756263867/link-generator/t5w8xirehxgcvcbbuuui.png)
 
-![API + Frontend](https://res.cloudinary.com/doxmvuss9/image/upload/v1756263867/link-generator/t5w8xirehxgcvcbbuuui.png)
+![API + Frontend](https://res.cloudinary.com/doxmvuss9/image/upload/v1756264147/link-generator/vz1pcs3o9s3v4z7snwgs.png)
 
 An interactive learning webpage to understand **Node.js basics, npm, HTTP servers, and APIs** with explanations and a **Mini Task: Build an API + Frontend**.
 
