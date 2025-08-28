@@ -44,4 +44,7 @@ npm install
 By default, the server runs at:
 👉 http://localhost:3000
 
+## 📸 Screenshot
+
+![UI Screenshot](./assets/ui.png)
 
