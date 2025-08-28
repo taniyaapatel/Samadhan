@@ -4,21 +4,6 @@ This project demonstrates the basics of **Express.js** by building a simple serv
 
 ---
 
-## 📂 Project Structure
-
-Day-05/
-┣ 📁 public → Frontend files
-┃ ┣ 📄 index.html → HTML UI
-┃ ┣ 📄 style.css → Styling
-┃ ┗ 📄 script.js → Frontend logic
-┣ 📄 server.js → Express.js server
-┣ 📄 package.json → Project metadata & dependencies
-┣ 📄 package-lock.json → Dependency lock file
-┗ 📄 .gitignore → Ignored files (node_modules, etc.)
-
-
----
-
 ## ✨ Features
 - Serves static frontend from the `public/` folder
 - Provides a **REST API** to manage students
@@ -35,16 +20,16 @@ Day-05/
 
 ---
 
+![UI Screenshot](./assets/ui.png)
+
 ## 🚦 Getting Started
 
-### Step 1: Install Dependencies
+### Steps: Install Dependencies and Run the Server
 ```bash
 npm install
+node server.js
 
 By default, the server runs at:
 👉 http://localhost:3000
 
-## 📸 Screenshot
-
-![UI Screenshot](./assets/ui.png)
 
