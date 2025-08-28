@@ -1,0 +1,110 @@
+/* Full-page center (desktop view) */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: hsl(185, 75%, 39%);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative background circles */
+.card-container::before,
+.card-container::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: hsl(185, 70%, 50%);
+  z-index: 0;
+}
+
+.card-container::before {
+  width: 400px;
+  height: 400px;
+  top: -200px;
+  left: -150px;
+}
+
+.card-container::after {
+  width: 500px;
+  height: 500px;
+  bottom: -250px;
+  right: -200px;
+}
+
+/* Card */
+.card {
+  width: 380px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header */
+.card-header {
+  background: url("https://www.transparenttextures.com/patterns/cubes.png"),
+    hsl(185, 75%, 45%);
+  height: 100px;
+}
+
+/* Profile picture */
+.profile-pic {
+  margin-top: -50px;
+}
+
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+/* User Info */
+.card-body h2 {
+  margin: 10px 0 5px;
+  font-size: 22px;
+}
+
+.role {
+  font-weight: 500;
+  color: #444;
+}
+
+.college {
+  font-size: 14px;
+  color: hsl(0, 0%, 59%);
+  margin: 5px 0;
+}
+
+.interests {
+  font-size: 13px;
+  color: #222;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer Stats */
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  border-top: 1px solid #eee;
+}
+
+.card-footer div h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card-footer div p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: hsl(0, 0%, 59%);
+}
