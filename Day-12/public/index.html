@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>✨ Beautiful To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-content">
+          <h1 class="title">
+            <i class="fas fa-check-circle"></i>
+            My Tasks
+          </h1>
+          <p class="subtitle">Organize your day, one task at a time</p>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="todo-container">
+          <div class="add-todo-section">
+            <form id="todoForm" class="todo-form">
+              <div class="input-group">
+                <input
+                  type="text"
+                  id="todoInput"
+                  placeholder="What needs to be done?"
+                  class="todo-input"
+                  autocomplete="off"
+                />
+                <button type="submit" class="add-btn">
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="todo-stats">
+            <div class="stat-item">
+              <span class="stat-number" id="totalTasks">0</span>
+              <span class="stat-label">Total</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" id="completedTasks">0</span>
+              <span class="stat-label">Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" id="pendingTasks">0</span>
+              <span class="stat-label">Pending</span>
+            </div>
+          </div>
+
+          <div class="todo-list" id="todoList">
+            <!-- Todo items will be dynamically added here -->
+          </div>
+
+          <div class="empty-state" id="emptyState">
+            <div class="empty-icon">
+              <i class="fas fa-clipboard-list"></i>
+            </div>
+            <h3>No tasks yet!</h3>
+            <p>Add your first task to get started</p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
