@@ -1,6 +1,6 @@
 # trello-clone
 
-![Trello clone](https://res.cloudinary.com/doxmvuss9/image/upload/v1756548449/link-generator/kpianlhwlzff66voqrgt.gif) 👨🏻‍💻
+![Trello clone](https://github.com/taniyaapatel/Samadhan/tree/Day-18/Day-18/blob/develop/demo.gif) 👨🏻‍💻
 ## Overview
 
 This is a clone application for trello.
