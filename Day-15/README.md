@@ -1,5 +1,9 @@
 # Samadhan Tracker
 
+📸 Preview:
+![Screenshot](https://res.cloudinary.com/doxmvuss9/image/upload/v1756547788/link-generator/maxpy84jyjolncnqd6hc.png)
+![Screenshot](https://res.cloudinary.com/doxmvuss9/image/upload/v1756547798/link-generator/dzvoiph0ldtwr8anjqon.png)
+
 A Next.js application for tracking learning progress with GitHub integration. Users can select up to 7 tasks from a curated list of 21 learning modules and track their completion status.
 
 ## Features
