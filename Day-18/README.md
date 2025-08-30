@@ -1,6 +1,6 @@
 # trello-clone
 
-![Trello clone](https://github.com/taniyaapatel/Samadhan/tree/Day-18/Day-18/blob/develop/demo.gif) 👨🏻‍💻
+![Trello clone](https://github.com/taniyaapatel/Samadhan/blob/Day-18/Day-18/demo.gif) 👨🏻‍💻
 ## Overview
 
 This is a clone application for trello.
