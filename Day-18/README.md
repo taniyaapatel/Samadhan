@@ -27,7 +27,7 @@
 
 This is a clone application for trello. This has been built for learning purpose. My plan is to improve this project and add more features in every release.
 
-### [Demo](https://trello-clone-one.vercel.app/) 
+### [Demo](https://trello-clone-one.vercel.app/)
 
 ## Features 🤩
 
@@ -76,31 +76,6 @@ Install docker on your machine and start it
 - MongoDB for local development
 - Mongo Atlas for production DB
 - Chakra UI library
-
-## Support
-
-Reach out to the maintainer at one of the following places:
-
-- [Portfolio](https://knowankit.com)
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/knowankit)
-
-## Contributing
-
-All contributions are welcome!
-
-### Contributors
-
-<a href="https://github.com/knowankit/trello-clone/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=knowankit/trello-clone" />
-</a>
-
-Made with [contributors-img](https://contrib.rocks).
-## Other interesting repositories
-
-- [My Portfolio](https://github.com/knowankit/knowankit.com)
-- [React bubble effect button](https://github.com/knowankit/react-bubbly-effect-button)
-- [Particle text effect](https://github.com/knowankit/particle-text-effect)
 
 ## License
 
