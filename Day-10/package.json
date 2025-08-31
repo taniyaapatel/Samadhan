@@ -1,0 +1,24 @@
+{
+  "name": "day-10-styled-product-cards",
+  "version": "1.0.0",
+  "description": "A modern, responsive e-commerce product card list built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -o",
+    "dev": "npx http-server -p 3000 -o",
+    "serve": "npx http-server -p 3000 -o"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "e-commerce",
+    "product-cards",
+    "responsive-design"
+  ],
+  "author": "Taniya Patel",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

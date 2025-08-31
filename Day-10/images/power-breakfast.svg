@@ -1,0 +1,47 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bowlGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8F9FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E9ECEF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="oatGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DEB887;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CD853F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="berryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E91E63;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nutGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bowl -->
+  <ellipse cx="150" cy="120" rx="80" ry="40" fill="url(#bowlGradient)" stroke="#DEE2E6" stroke-width="2"/>
+
+  <!-- Oats base -->
+  <ellipse cx="150" cy="125" rx="70" ry="35" fill="url(#oatGradient)"/>
+
+  <!-- Berries -->
+  <circle cx="120" cy="110" r="8" fill="url(#berryGradient)"/>
+  <circle cx="180" cy="105" r="6" fill="url(#berryGradient)"/>
+  <circle cx="140" cy="130" r="7" fill="url(#berryGradient)"/>
+  <circle cx="200" cy="125" r="5" fill="url(#berryGradient)"/>
+  <circle cx="110" cy="140" r="6" fill="url(#berryGradient)"/>
+  <circle cx="170" cy="135" r="7" fill="url(#berryGradient)"/>
+
+  <!-- Nuts -->
+  <ellipse cx="130" cy="115" rx="4" ry="8" fill="url(#nutGradient)" transform="rotate(45 130 115)"/>
+  <ellipse cx="190" cy="110" rx="3" ry="6" fill="url(#nutGradient)" transform="rotate(-30 190 110)"/>
+  <ellipse cx="150" cy="140" rx="5" ry="10" fill="url(#nutGradient)" transform="rotate(15 150 140)"/>
+
+  <!-- Bowl highlight -->
+  <ellipse cx="150" cy="110" rx="60" ry="30" fill="white" opacity="0.1"/>
+
+  <!-- Steam lines -->
+  <line x1="140" y1="80" x2="135" y2="60" stroke="#DEE2E6" stroke-width="2" opacity="0.6"/>
+  <line x1="160" y1="75" x2="165" y2="55" stroke="#DEE2E6" stroke-width="2" opacity="0.6"/>
+  <line x1="150" y1="70" x2="150" y2="50" stroke="#DEE2E6" stroke-width="2" opacity="0.6"/>
+</svg>
