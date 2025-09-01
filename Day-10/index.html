@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Product Card List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#" class="nav-link">
+                Categories <i class="fas fa-chevron-down"></i>
+            </a>
+            <a href="#" class="nav-link">About us</a>
+            <a href="#" class="nav-link">Our stores</a>
+            <a href="#" class="nav-link">Recipes</a>
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#" class="nav-link">FAQ</a>
+        </div>
+        <div class="nav-right">
+            <div class="store-section">
+                <i class="fas fa-store"></i>
+                <span>Picking up?</span>
+                <a href="#" class="store-link">Select store <i class="fas fa-chevron-down"></i></a>
+            </div>
+            <div class="delivery-section">
+                <i class="fas fa-box"></i>
+                <span>Need delivery?</span>
+                <a href="#" class="delivery-link">See estimates</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Section Header -->
+        <div class="section-header">
+            <h1>Best Sellers</h1>
+            <a href="#" class="view-all">View all products</a>
+        </div>
+
+        <!-- Product Cards Container -->
+        <div class="product-cards">
+            <!-- Chocolate Cookie Card -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/chocolate-cookie.svg" alt="Chocolate Cookie">
+                    <span class="tag new-tag">NEW</span>
+                </div>
+                <div class="product-info">
+                    <div class="price">$0.80</div>
+                    <h3 class="product-title">Chocolate Cookie</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span class="review-count">(4)</span>
+                    </div>
+                    <p class="description">No added sugar!</p>
+                    <button class="buy-btn">Buy now</button>
+                    <div class="availability">
+                        <p>Choose a store to see local availability</p>
+                        <div class="availability-options">
+                            <input type="radio" name="store1" id="store1">
+                            <label for="store1">
+                                <i class="fas fa-shopping-cart"></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Keto Crunch Card -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/keto-crunch.svg" alt="Keto Crunch">
+                    <span class="tag discount-tag">-17%</span>
+                </div>
+                <div class="product-info">
+                    <div class="price">
+                        <span class="current-price">$4.99</span>
+                        <span class="original-price">$6.00</span>
+                    </div>
+                    <h3 class="product-title">Keto Crunch</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span class="review-count">(4)</span>
+                    </div>
+                    <p class="description">Keto-friendly combination</p>
+                    <button class="buy-btn">Buy now</button>
+                    <div class="availability">
+                        <p>Choose a store to see local availability</p>
+                        <div class="availability-options">
+                            <input type="radio" name="store2" id="store2">
+                            <label for="store2">
+                                <i class="fas fa-shopping-cart"></i>
+                            </label>
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Watermelon Card -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/watermelon.svg" alt="Watermelon">
+                </div>
+                <div class="product-info">
+                    <div class="price">$0.99</div>
+                    <h3 class="product-title">Watermelon</h3>
+                    <div class="rating">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span class="review-count">No reviews</span>
+                    </div>
+                    <p class="description">Excellent source of Vitamin A</p>
+                    <button class="buy-btn">Buy now</button>
+                    <div class="availability">
+                        <p>Choose a store to see local availability</p>
+                        <div class="availability-options">
+                            <input type="radio" name="store3" id="store3">
+                            <label for="store3">
+                                <i class="fas fa-ruler"></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Power Breakfast Card -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/power-breakfast.svg" alt="Power Breakfast">
+                </div>
+                <div class="product-info">
+                    <div class="price">From $2.00</div>
+                    <h3 class="product-title">Power Breakfast</h3>
+                    <div class="rating">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span class="review-count">No reviews</span>
+                    </div>
+                    <p class="description">Protein bomb!</p>
+                    <button class="buy-btn">Buy now</button>
+                    <div class="availability">
+                        <p>Choose a store to see local availability</p>
+                        <div class="availability-options">
+                            <input type="radio" name="store4" id="store4">
+                            <label for="store4">
+                                <i class="fas fa-shopping-cart"></i>
+                            </label>
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

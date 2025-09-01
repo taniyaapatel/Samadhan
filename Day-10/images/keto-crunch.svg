@@ -1,0 +1,33 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nutGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D2691E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="seedGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4A460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DEB887;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="300" height="200" fill="#F5F5DC"/>
+
+  <!-- Nuts and seeds -->
+  <ellipse cx="100" cy="80" rx="25" ry="15" fill="url(#nutGradient)" transform="rotate(45 100 80)"/>
+  <ellipse cx="200" cy="70" rx="20" ry="12" fill="url(#nutGradient)" transform="rotate(-30 200 70)"/>
+  <ellipse cx="150" cy="120" rx="22" ry="14" fill="url(#nutGradient)" transform="rotate(15 150 120)"/>
+  <ellipse cx="80" cy="130" rx="18" ry="11" fill="url(#nutGradient)" transform="rotate(60 80 130)"/>
+  <ellipse cx="220" cy="110" rx="24" ry="16" fill="url(#nutGradient)" transform="rotate(-45 220 110)"/>
+
+  <!-- Seeds -->
+  <ellipse cx="120" cy="60" rx="8" ry="4" fill="url(#seedGradient)" transform="rotate(20 120 60)"/>
+  <ellipse cx="180" cy="50" rx="6" ry="3" fill="url(#seedGradient)" transform="rotate(-15 180 50)"/>
+  <ellipse cx="140" cy="90" rx="7" ry="4" fill="url(#seedGradient)" transform="rotate(35 140 90)"/>
+  <ellipse cx="200" cy="140" rx="9" ry="5" fill="url(#seedGradient)" transform="rotate(-25 200 140)"/>
+
+  <!-- Crunch texture lines -->
+  <line x1="50" y1="160" x2="250" y2="160" stroke="#8B4513" stroke-width="1" opacity="0.3"/>
+  <line x1="60" y1="170" x2="240" y2="170" stroke="#8B4513" stroke-width="1" opacity="0.2"/>
+  <line x1="70" y1="180" x2="230" y2="180" stroke="#8B4513" stroke-width="1" opacity="0.1"/>
+</svg>
