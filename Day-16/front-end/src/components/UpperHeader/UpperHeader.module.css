@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(19, 25, 33);
+}
+
+.logoContainer {
+  flex-grow: 1;
+  align-self: center;
+  padding: 0.3em 2.5%;
+}
+
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.orange {
+  color: rgb(255, 153, 0);
+}
+
+@media screen and (max-width: 600px) {
+  .logoContainer {
+    /* Centre logo */
+    flex-grow: 0;
+    margin: 0 auto 0.5em auto;
+  }
+}
