@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": "Riya",
+      "content": "Hello! This is my first post ✨",
+      "comments": [
+        "So cute!",
+        "Welcome 🎉"
+      ]
+    },
+    {
+      "id": 1756958049471,
+      "user": "You",
+      "content": "hi",
+      "comments": [
+        "hello"
+      ]
+    }
+  ]
+}
