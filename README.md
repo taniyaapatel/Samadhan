@@ -8,7 +8,8 @@ A next-gen test platform designed for **CLAT students** with minimal data requir
 
 ### 🔹 Google Drive  
 - 📁 [Mantrix Team – Samadhan Folder](https://drive.google.com/drive/folders/1jUH8HCAeC0Z8BjOgHeS-y90oA9Qx6sy0?usp=sharing)  
-
+### 🔹 PPT
+     [PPT](./SAMADHAN.pdf)  
 ### 🔹 Cloudinary  
 - 🎥 [Cloudinary Video](https://res.cloudinary.com/doxmvuss9/video/upload/v1757078261/link-generator/uig6g667lhxsxdcq9gx1.mp4)  
 
