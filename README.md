@@ -1,7 +1,4 @@
-# 🚀 OUTLAWED  
-
-A next-gen test platform designed for **CLAT students** with minimal data requirements, secure user privacy, and collaborative features like personal rooms, friends-only sharing, and global leaderboards for motivation.  
-
+# 🚀 TEAM MANTRIX 
 ---
 
 ## 📂 Project Resources  
@@ -19,6 +16,7 @@ A next-gen test platform designed for **CLAT students** with minimal data requir
 ---
 
 ## 💡 Our Idea – OUTLAWED  
+A next-gen test platform designed for **CLAT students** with minimal data requirements, secure user privacy, and collaborative features like personal rooms, friends-only sharing, and global leaderboards for motivation.  
 
 - ⚖️ **Minimal Data Collection** – Only essential details are stored.  
 - 🔒 **User Privacy First** – Test content remains private, shared only in chosen rooms.  
