@@ -35,8 +35,7 @@ A next-gen test platform designed for **CLAT students** with minimal data requir
 - **Video Hosting** – YouTube & Cloudinary  
 
 ---
-
-## 👨‍💻 Team Mantrix – Samadhan  
+ 
 
 We are building solutions that empower students with **AI, web, and app technology** to make preparation smarter, easier, and more engaging.  
 
